@@ -1,19 +1,19 @@
 ﻿Console.Clear();
-//Console.SetCursorPosition (10, 4);
+//Console.SetCursorPosition (5, 4);
 //Console.WriteLine("*");
 
-int xa = 40, ya = 1,
-    xb = 1, yb = 25,
-    xc = 80, yc = 25;
+int xa = 60, ya = 1,
+    xb = 1, yb = 50,
+    xc = 120, yc = 50;
 
 Console.SetCursorPosition(xa, ya);
-Console.WriteLine("+");
+Console.WriteLine("*");
 
 Console.SetCursorPosition(xb, yb);
-Console.WriteLine("+");
+Console.WriteLine("*");
 
 Console.SetCursorPosition(xc, yc);
-Console.WriteLine("+");
+Console.WriteLine("*");
 
 
 int x = xa, y = xb;
@@ -42,7 +42,6 @@ while(count < 10000)
     }
 
     Console.SetCursorPosition(x, y);
-    Console.WriteLine("+");
-    count = count + 1;
-    
+    Console.WriteLine("*");
+    count++;   
 }
